@@ -369,6 +369,12 @@ footer a:hover {
     width: 94%;
     margin: 0 auto;
   }
+  p img {
+  	width: 75px;
+  	margin-bottom: 5px;
+  	margin-right: 10px;
+  	float: left;
+  }
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
