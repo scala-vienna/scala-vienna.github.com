@@ -1,22 +1,16 @@
-# Left
+# The Vienna Scala User Group Website/Blog
 
-Left is a clean, whitespace-happy layout for [Jekyll](https://github.com/mojombo/jekyll).
+It's based on [Jekyll](https://github.com/mojombo/jekyll) with the [Left](https://github.com/holman/left) layout by [Zach Holman](http://zachholman.com/).
 
-This is designed to be an easy layout to modify for your own blog. It was
-extracted from [zachholman.com](http://zachholman.com/), which means it was
-battle-hardened from years of posting serious blog posts about emoji and swear
-words.
-
-![Left](http://cl.ly/image/3S2r1p2C0E2B/content)
-
-## Installation
+## How to contribute to the blog
 
 - Install Jekyll: `gem install jekyll`
-- Fork this repository
-- Clone it: `git clone https://github.com/YOUR-USER/left`
-- Run the jekyll server: `jekyll --server`
+- Clone this repo: `git clone https://github.com/YOUR-USER/left`
+- Run Jekyll in your local machine with `jekyll --server` and point your browser to (http://localhost:4000).
+- Make, commit and push your changes to the repo.
 
-You should have a server up and running locally at <http://localhost:4000>.
+Alternatively, if you do not have write access to this repository, fork this repo and send a pull request. 
+Make sure you also ask to be added to the [Vienna Scala User Group GitHub organization](https://github.com/scala-vienna)!
 
 ## Customization
 
@@ -52,5 +46,5 @@ This is [MIT](https://github.com/holman/left/blob/gh-pages/LICENSE) with no
 added caveats, so feel free to use this on your site without linking back to
 me or using a disclaimer or anything silly like that.
 
-If you'd like give me credit somewhere on your blog or tweet a shout out to
-[@holman](https://twitter.com/holman), well hey, I'll take it.
+Credit for the [Left](https://github.com/holman/left) layout goes to [Zach Holman](http://zachholman.com/).
+Credit for the [Vienna Scala User Group](http://scala-vienna.org) logo goes to [Rafael Cordones Marcos](http://github.com/rafacm).
