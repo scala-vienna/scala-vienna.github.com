@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>
+    {% if page.title %}
+      {{ page.title }} &ndash;
+    {% endif %}
+    {{ site.name }}
+  </title>
+
+  <meta name="author" content="{{ site.name }}" />
+  <meta name="description" content="{{ site.description }}" />
+
+  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+
+  <link rel="stylesheet" href="/css/base.css?v7" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/css/pygments.css" type="text/css" />
+  <link media="only screen and (max-device-width: 480px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (device-width: 768px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/application.js"></script>
+</head>
+
+<body>
+  <section class="sidebar">
+    <a href="/">
+      <img src="/images/vienna-scala-user-group-logo_150px.png" alt="Vienna Scala User Group Logo" height="150" width="150" class="avatar" />
+    </a>
+
+    <section class="meta">
+      <a href="https://github.com/{{ site.github }}" target="_blank"><img src="/images/github.png" /></a>
+      <a href="https://twitter.com/{{ site.twitter }}" target="_blank"><img src="/images/twitter.png"></a>
+      <a href="/atom.xml"><img src="/images/rss.png" /></a>
+    </section>
+
+	<div id="sponsors">
+		<h1>Our Sponsors</h1>
+
+		<div id="slot">
+			<a href="http://plexiti.com" target="_blank"><img src="http://photos1.meetupstatic.com/photos/sponsor/8/a/a/e/iab120x90_1235502.jpeg"></a>
+			<p>Sponsors the scala-vienna.org domain and the quota for meetup.com.</p>
+		</div>
+
+		<div id="slot">
+			<a href="http://openforce.at" target="_blank"><img src="http://photos1.meetupstatic.com/photos/sponsor/c/c/6/c/iab120x90_1252332.jpeg"></a>
+			<p>Provides a venue for our meetings.</p>
+		</div>
+		<div id="slot">
+			<a href="http://www.devoxx.co.uk/" target="_blank"><img src="http://photos2.meetupstatic.com/photos/sponsor/d/f/9/a/iab120x90_1377242.jpeg"></a>
+			<p>1 FREE Pass to<br/>Devoxx UK 2013</p>
+		</div>
+	</div>
+  </section>
+  
+  {{ content }}
+  
+  <p style="margin-bottom:80px;text-align:center;margin-left:auto;margin-right:auto;width:486px;font-size:10pt">Some of us will be at<a href=" https://reguk.devoxx.com"><img src="/images/DevoxxUK-Banner3-486-60.jpg" style="width:486px;height:60px"></a></p>
+</body>
+
+</html>
