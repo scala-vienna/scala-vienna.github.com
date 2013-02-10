@@ -1,6 +1,6 @@
 ---
 layout: post
-title: January 2012 Monthly Meetup
+title: January 2013 Monthly Meetup
 category: posts
 ---
 
