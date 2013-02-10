@@ -47,4 +47,4 @@ added caveats, so feel free to use this on your site without linking back to
 me or using a disclaimer or anything silly like that.
 
 Credit for the [Left](https://github.com/holman/left) layout goes to [Zach Holman](http://zachholman.com/).
-Credit for the [Vienna Scala User Group](http://scala-vienna.org) logo goes to [Rafael Cordones Marcos](http://github.com/rafacm).
+Credit for the style modification and the [Vienna Scala User Group](http://scala-vienna.org) logo goes to [Rafael Cordones Marcos](http://github.com/rafacm).
