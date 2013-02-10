@@ -11,8 +11,8 @@ a {
   position: fixed;
   left: 15px;
   top: 15px;
-  width: 80px;
-  font-family: Helvetica, sans-serif; }
+  width: 150px;
+}
   .sidebar a {
     text-decoration: none; }
   .sidebar img {
@@ -34,29 +34,33 @@ a {
       font-size: 17px;
       font-weight: bold;
       letter-spacing: 1px;
-      color: black; }
+      color: black; 
+    }
   .sidebar .meta a {
+    padding-top: 10px;
     margin-left: 0px;
-    color: black; }
-    .sidebar .meta a:hover {
-      color: #227ce8; }
-  .sidebar .sections {
+    color: black; 
+  }
+  .sidebar .meta a:hover {
+      color: #227ce8; 
+  }
+  .sidebar .section {
     margin: 15px 0 0 0; }
-    .sidebar .sections a {
+    .sidebar .section a {
       padding: 3px 0;
       color: black;
       font-weight: bold;
       font-size: 12px;
       display: block; }
-      .sidebar .sections a:hover {
+      .sidebar .section a:hover {
         color: #227ce8; }
-    .sidebar .sections ul {
+    .sidebar .section ul {
       margin: 0;
       padding: 0; }
-    .sidebar .sections li {
+    .sidebar .section li {
       list-style: none;
       margin-bottom: 7px; }
-
+	  
 .content {
   margin-left: 200px;
   width: 650px;
@@ -101,7 +105,6 @@ a {
     padding-bottom: 5px;
     margin-bottom: 10px; }
   .content p {
-    font-size: 18px;
     margin-top: 0;
     margin-bottom: 1.2em;
     line-height: 1.7em; }
@@ -154,12 +157,11 @@ a {
   .content .listing {
     margin: 10px 0 0 0;
     padding: 0;
-    font-family: Helvetica, sans-serif; }
+}
     .content .listing ul {
       margin: 0;
       padding: 0; }
-    .content .listing li {
-      font-size: 13px;
+    .content .listing li {	
       list-style: none;
       padding: 5px 3px;
       margin: 0;
@@ -200,3 +202,23 @@ a {
     font-weight: bold; }
   .content .talk-design .color .white {
     color: #fff; }
+
+#sponsors {
+	text-align: center;
+    margin-top: 20px;
+    color: black; 
+}
+
+#sponsors h1 {
+	font-size: 1.2em;
+}
+
+#sponsors #slot {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#sponsors #slot p {
+	margin-top: 0px;
+	font-size: 0.8em;
+}
