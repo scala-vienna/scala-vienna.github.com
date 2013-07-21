@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Juni 2013 Coding Dojo
+title: June 2013 Coding Dojo
 category: posts
 ---
 
