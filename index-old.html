@@ -1,0 +1,31 @@
+---
+layout: layout
+title: "Posts"
+---
+
+<section class="content">
+	
+	<h1>Vienna Scala User Group</h1>
+	
+	<p>We are a bunch of software developers interested in discovering <a href="http://www.scala-lang.org">Scala</a>, learning about new techniques and frameworks and meeting other <a href="http://www.scala-lang.org">Scala</a> developers in the Vienna area. Our aim is to meet regularly in 4 week cycles and share knowledge and experiences about the <a href="http://www.scala-lang.org">Scala programming language</a> and its ecosystem.</p>
+
+	<p align="center">Developers <b>from all skill levels eager to learn</b> more<br/>about this great language are welcome!</p>
+	<p>Come on and Join us! How?
+		<ol>
+			<li>Subscribe to our Google group: <a href="http://groups.google.com/group/scala-vienna">http://groups.google.com/group/scala-vienna</a></p></li>
+			<li>Join our meetup.com group: <a href="http://meetup.scala-vienna.org">http://meetup.scala-vienna.org</a></li>
+		</ol>
+	</p>
+    <p align="center">Some of us will be at <a href="http://www.devoxx.be">Devoxx</a> Belgium!
+      <a href="https://regbe.devoxx.com"><img src="/images/Devoxx2013-486x60.gif"/></a>
+    </p>
+
+    <p>Our activities so far (check <a href="http://meetup.scala-vienna.org">our meetup</a> for the upcoming ones!):</p>
+  <ul class="listing">
+    {% for post in site.posts %}
+    <li>
+      <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

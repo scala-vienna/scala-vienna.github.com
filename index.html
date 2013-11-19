@@ -1,31 +1,75 @@
----
-layout: layout
-title: "Posts"
----
-
-<section class="content">
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Title here -->
+		<title>Vienna Scala User Group</title>
+		<!-- Description, Keywords and Author -->
+		<meta name="description" content="Your description">
+		<meta name="keywords" content="Your,Keywords">
+		<meta name="author" content="ResponsiveWebInc">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Open sans Condensed -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+		<!-- Open sans -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+		
+		<!-- Styles -->
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Countdown CSS -->
+		<link rel="stylesheet" type="text/css" href="css/jquery.countdown.css"> 
+		<!-- Font awesome CSS -->
+		<link href="css/font-awesome.min.css" rel="stylesheet">		
+		<!-- Custom CSS -->
+		<link href="css/style.css" rel="stylesheet">
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="#">
+	</head>
 	
-	<h1>Vienna Scala User Group</h1>
-	
-	<p>We are a bunch of software developers interested in discovering <a href="http://www.scala-lang.org">Scala</a>, learning about new techniques and frameworks and meeting other <a href="http://www.scala-lang.org">Scala</a> developers in the Vienna area. Our aim is to meet regularly in 4 week cycles and share knowledge and experiences about the <a href="http://www.scala-lang.org">Scala programming language</a> and its ecosystem.</p>
+	<body>
+		<!-- Header Start -->
+		<header>
+			<!-- Container -->
+			<div class="container">
+				<!-- Logo -->
+				<div class="logo">
+                    <a href="http://www.meetup.com/scala-vienna"><img width="200px" src="https://raw.github.com/scala-vienna/scala-vienna-logos/master/vienna-workshop/vienna-scala-user-group-logo_300px.png"/></a>
+				</div>
+			</div>
+			
+			<!-- Countdown Block -->
+			<div class="countdown-block">
+				<!-- Container -->
+				<div class="container">
+                    <div class="build-info-wrapper">
+                        <h3 class="build-info">[scala-vienna-web] $ dist<br/>
+                            [info] Updating {scala-vienna-web} ...<br/>
+                        </h3>
+                    </div>
+					<!-- Countdown -->
+					<div class="countdown">
+						<div id="countdown"></div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Header end -->
 
-	<p align="center">Developers <b>from all skill levels eager to learn</b> more<br/>about this great language are welcome!</p>
-	<p>Come on and Join us! How?
-		<ol>
-			<li>Subscribe to our Google group: <a href="http://groups.google.com/group/scala-vienna">http://groups.google.com/group/scala-vienna</a></p></li>
-			<li>Join our meetup.com group: <a href="http://meetup.scala-vienna.org">http://meetup.scala-vienna.org</a></li>
-		</ol>
-	</p>
-    <p align="center">Some of us will be at <a href="http://www.devoxx.be">Devoxx</a> Belgium!
-      <a href="https://regbe.devoxx.com"><img src="/images/Devoxx2013-486x60.gif"/></a>
-    </p>
-
-    <p>Our activities so far (check <a href="http://meetup.scala-vienna.org">our meetup</a> for the upcoming ones!):</p>
-  <ul class="listing">
-    {% for post in site.posts %}
-    <li>
-      <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-</section>
+		<!-- Javascript files -->
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Countdown JS -->
+		<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+		<!-- Respond JS for IE8 -->
+		<script src="js/respond.min.js"></script>
+		<!-- HTML5 Support for IE -->
+		<script src="js/html5shiv.js"></script>
+		<!-- Custom JS -->
+		<script src="js/custom.js"></script>
+	</body>	
+</html>
